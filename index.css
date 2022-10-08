@@ -15,13 +15,25 @@ body {
   border-bottom: 2px solid black;
 }
 
+.status-bar{
+  display: flex;
+  justify-content: space-between;
+  padding:1rem 2rem;
+}
+
+.start-button{
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
 .board {
   background-color: green;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
-  margin: 3rem auto;
+  margin: auto;
   width: fit-content;
   background: radial-gradient(hsl(30, 50%, 30%), black);
   border: 1rem groove hsl(120, 50%, 25%);
@@ -51,4 +63,8 @@ body {
   border-radius: 50%;
   width: 75%;
   height: 75%;
+}
+
+.gameover-section{
+  padding-top: 1rem;
 }
