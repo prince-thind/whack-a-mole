@@ -9,6 +9,10 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.hidden{
+  /* display: none; */
+  opacity: 0;
+}
 .heading {
   background-color: hsl(39, 50%, 25%);
   padding: 0.5rem;
@@ -63,6 +67,8 @@ body {
   border-radius: 50%;
   width: 75%;
   height: 75%;
+  transition: all 2s;
+
 }
 
 .gameover-section{
